@@ -7,7 +7,10 @@ public class App {
     public static void main(String[] args) throws Exception   { 
 
         // Faz uma conexão HTTP
-        //String url = "https://api.nasa.gov/planetary/apod?api_key=BLeapqOHd6fZD7rEKyro9WuncuzHWOdonVJ65WCq&start_date=2022-06-12&end_date=2022-06-30";
+        
+        // API da Nasa
+        String url = "https://api.nasa.gov/planetary/apod?api_key=BLeapqOHd6fZD7rEKyro9WuncuzHWOdonVJ65WCq&start_date=2022-06-12&end_date=2022-06-30";
+        // API do IMDB
         // String url = "https://api.mocki.io/v2/549a5d8b/Top250Movies";
 
         ClienteHTTP http = new ClienteHTTP();
